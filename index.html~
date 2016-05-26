@@ -18,15 +18,16 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Habeshwoub Bootstrap 101</h1>
-
-	<div class="container">
-  	<h2> EthioVibez</h2>
-  		<p> Welcome</p>            
-  	<img src="/resources/test1.png" class="img-rounded" alt="EthioVibez" width="304" height="236"> 
+   
+<div class="container">
+	<div class="jumbotron">  	
+	<h2> Welcome</h2>
+	<p> Still loading...</p>
 	</div>
-
-
+	<div> 
+<img src="/resources/test1.png" class="img-circle" alt="EthioVibez" width="320" height="168"> 
+	</div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
