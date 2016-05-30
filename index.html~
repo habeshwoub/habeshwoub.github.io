@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,20 +20,56 @@
     <![endif]-->
   </head>
   <body>
-   	<div class="container">
+   <div class="container">
+		<div class="jumbotron">  	
+		<h2> Welcome to EthioFin Oulu!</h2>
+		<p> Coming soon!</p>
+	</div>
 		<div class="page-header">
 		<h1> EthioFin Oulu</h1>
 		</div>
 	<img src="/resources/EthioFin.jpg" class="img-responsive img-circle" alt="EthioVibez" width="320" height="168"> 
 	
 </div>
-	<div class="jumbotron">  	
-		<h2> Welcome to EthioFin Oulu!</h2>
-		<p> Coming soon!</p>
-	</div>
+	
 
+=======
+<head>
+  <title>HwbBtstrap Tease</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body> 
+>>>>>>> 8b1a5430a741b464a4dc43fc3914102d7d4b353d
 
+<div class="container">
+  <h2>HabFub Btstrp Tease!</h2>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">HabWbStrpTease</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/nav/about.html">About</a></li>
+      <li><a href="/nav/cv.html">Cv</a></li>
+      <li><a href="/nav/projects.html">Projects.html</a></li>
+      <li><a href="/nav/publications.html">Publications.html</a></li>
+    </ul>
+  </div>
+</nav>
  
-    
-  </body>
+  <div class="jumbotron"> 
+   
+    <img class="img-rounded" src="/resources/test1.png" width="436" height="158"></h3>
+    <div class="page-header">Loading..</div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-body"> Testing panels</div>
+  
+</div>
+</body>
 </html>
