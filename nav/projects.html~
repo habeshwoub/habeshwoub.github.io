@@ -72,11 +72,11 @@
 		<h3> Who we are ?</h3>
 	<img src="/resources/EthioFin.jpg" class="img-responsive img-center" alt="EthioFinOulu"  style="display-inline"> 
 	         <h3>EthioFin_Oulu</h3>
-<p> Friends, Fun and Play ! <span class="bg-primary">Team @EthioFin_Oulu is established by Ethiopian students residing in the northern city of Oulu, in Finland. </span></p>
+<p> <blockquote>Friends, Fun and Play ! Team @EthioFin_Oulu is established by Ethiopian students residing in the northern city of Oulu, in Finland. </blockquoute> </p>
 	</div>
 	<div class="container-fluid bg-2 text-center">
 		<h3>What We do ?</h3>
-		<p>Some say that EthioFin_Oulu got its roots the moment 'Jikaka' put everyone to test with that '6€ ball from the kirpis':). We started playing for fun and build friendship and brotherhood. Along the years, the team has participated in different friendly matches and competitions. </p>
+		<blockquote><p>Some say that EthioFin_Oulu got its roots the moment 'Jikaka' put everyone to test with that '6€ ball from the kirpis':). We started playing for fun and build friendship and brotherhood. Along the years, the team has participated in different friendly matches and competitions. </p><blockquote>
 		<a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-search"></span>Search</a>
 	</div>
 	<div class="container-fluid bg-3 text-center">
