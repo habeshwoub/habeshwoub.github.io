@@ -3,12 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags ->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <title>Habeshwoub</title>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -18,17 +16,87 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  <style>
+  	.bg-1{
+  		background-color: #1abc9c; /*green */
+  		color: #ffffff;
+  	}
+  	.bg-2{
+  		background-color: #474e5d; /*Dark blue*/
+  		color: #ffffff;
+  	}
+  	.bg-3{
+  		background-color: #ffffff;/*White*/
+  		color: #555555;
+  	}
+  	.container-fluid{
+  		padding-top:70px;
+  		padding-bottom:70px;
+  	}
+  	.navbar{
+  		padding-top:15px;
+  		padding-bottom:15px;
+  		border:0;
+  		border-radius:0;
+  		margin-bottom:0;
+  		font-size:12px;
+  		letter-spacing:5px;
+  		
+  	}
+  	.navbar-nav li a:hover {
+  		color:#1abc9c !important;
+  	}
+  </style>
   <body>
-   <div class="container">
-	        
-		<div class="jumbotron">  	
-		<h2> Welcome to EthioFin Oulu!</h2>
-		<p> Coming soon!</p>
+  	<nav class="navbar navbar-default">
+ <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      	<span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Team @EthioFin_Oulu</a>
+    </div>
+    <div class="collapse navbar-collapse" id = "myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">The team</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	 <div class="container-fluid bg-1 text-center">
+		<h3> Who we are ?</h3>
+	<img src="/resources/EthioFin.jpg" class="img-responsive img-circle" alt="EthioFinOulu" position="center" style="display-inline"> 
+	         <h3>Team @EthioFin_Oulu</h3>
 	</div>
-		<div class="page-header">
-		<h1> EthioFin Oulu</h1>
+	<div class="container-fluid bg-2 text-center">
+		<h3>What We do ?</h3>
+		<p>EthioFin Oulu....</p>
+		<a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-search"></span>Search</a>
+	</div>
+	<div class="container-fluid bg-3 text-center">
+		<h3>Where to find us ?</h3>
+	<div class="row">
+		<div class="col-sm-4">
+			<img   src="/resources/test1.png" alt="EthioVibez" class="img-responsive img-rounded"  style="width:100%">
+			<p>The theme</p>
 		</div>
-	<img src="/resources/EthioFin.jpg" class="img-responsive img-circle" alt="EthioVibez" width="320" height="168"> 
+		<div class="col-sm-4">
+			<img src="/resources/EthioFin.jpg" alt="EthioFinOulu" class="img-responsive img-rounded"  style="width:100%">
+			<p>The team...</p>
+		</div>
+		<div class="col-sm-4">
+			<img src="/resources/test1.png" alt="EthioVibez" class="img-responsive img-rounded"  style="width:100%">
+		<p>EthioFin Oulu is organized by the Ethiopian community residing in northern Finland...</p>
+		</div>
+		
+	</div>
+
+	</div>
 	
-</div>
+</body>
 </html>
