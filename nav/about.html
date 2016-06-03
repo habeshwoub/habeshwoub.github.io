@@ -59,12 +59,50 @@
      .item span{
      font-style:normal;
 }
-	@media screen and (max-width: 768px) {
+.panel {
+      border: 1px solid #f4511e; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #f4511e !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+  @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
     }
-	}
+  }
   </style>
 </head>
 <body>
@@ -137,7 +175,7 @@
       <h4>OUTSOURCE</h4>
       <p>Do you need outsourcing services? Just contact us! Our experienced team is always ready to give you the best services around the web.</p>
     </div>
-      </div>
+   </div>
 <!--A container for portfolio section--->
   <div class="container-fluid text-center bg-grey">
     <h2>Portfolio</h2>
