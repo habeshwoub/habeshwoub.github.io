@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
   <style>
  .jumbotron {
     background-color: #f4511e;/*orange*/
@@ -378,11 +380,8 @@
 </div>
  <!-- Set height and width with CSS -->
 <div id="googleMap" style="height:400px;width:90%;"></div>
-
-<!-- Add Google Maps -->
-<script src="http://maps.googleapis.com/maps/api/js"></script>
 <script>
-var myCenter = new google.maps.LatLng(9°00'59.2, 38°45'08.3);
+var myCenter = new google.maps.LatLng(9.016451, 38.752319);
 
 function initialize() {
 var mapProp = {
