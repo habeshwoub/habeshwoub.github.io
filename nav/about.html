@@ -332,7 +332,7 @@
   </div>
 </div>
  <!-- Set height and width with CSS -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
+<div id="googleMap" style="height:400px;width:70%;"></div>
 
 <!-- Add Google Maps -->
 <script src="http://maps.googleapis.com/maps/api/js"></script>
@@ -343,8 +343,8 @@ function initialize() {
 var mapProp = {
 center:myCenter,
 zoom:12,
-scrollwheel:false,
-draggable:false,
+scrollwheel:true,
+draggable:true,
 mapTypeId:google.maps.MapTypeId.ROADMAP
 };
 
